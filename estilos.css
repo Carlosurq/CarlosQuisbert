@@ -1,0 +1,48 @@
+
+
+.face {
+    width: 200px;
+    height: 200px;
+    background-color: #ffd700; /* color de piel */
+    border-radius: 50%; /* crea una forma de círculo */
+    position: relative;
+}
+
+.eye {
+    width: 50px;
+    height: 50px;
+    background-color: #fff; /* blanco para el ojo */
+    position: absolute;
+    border-radius: 50%; /* crea una forma de círculo */
+}
+
+.eye.left {
+    left: 25px;
+    top: 30px;
+}
+
+.eye.right {
+    right: 25px;
+    top: 30px;
+}
+
+.nose {
+    width: 20px;
+    height: 20px;
+    background-color: #000; /* color negro para la nariz */
+    position: absolute;
+    top: 80px;
+    left: calc(50% - 10px); /* centrar la nariz */
+    border-radius: 50%; /* crea una forma de círculo */
+}
+
+.mouth {
+    width: 100px;
+    height: 60px;
+    background-color: #fff; /* blanco para la boca */
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    margin-left: -50px; /* centrar la boca */
+    border-radius: 0 0 50% 50%; /* crea una forma de sonrisa */
+}
